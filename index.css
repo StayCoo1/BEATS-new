@@ -1191,7 +1191,7 @@ footer {
 }
 
 .order {
-  background: url("/sections/order/content/cta.png") center bottom no-repeat;
+  background: url("../content/cta.png") center bottom no-repeat;
   background-size: cover;
   color: #fff;
 }
