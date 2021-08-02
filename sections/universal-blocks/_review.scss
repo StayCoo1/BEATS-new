@@ -1,0 +1,32 @@
+.review {
+  display: flex;
+  background-color: #f8faf9;
+  align-items: center;
+}
+
+.review__avatar {
+  flex: 1 1 37%;
+  padding: 2.625rem;
+}
+
+.review__content {
+  flex: 1 1 63%;
+  padding-right: 10%;
+}
+
+.review__content-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.review__content-desc {
+  color: $gray;
+  margin-bottom: 2rem;
+}
+
+.review__content-username {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

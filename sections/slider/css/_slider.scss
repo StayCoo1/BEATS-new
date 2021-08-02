@@ -1,0 +1,142 @@
+.slider {
+  display: flex;
+  background-color: #f8faf9;
+}
+
+.slider__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.slider__arrows_pc {
+  display: flex;
+  align-items: center;
+  min-width: 24px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider__arrows_mobile {
+  display: none;
+  align-items: center;
+  min-width: 24px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider__arrow {
+  cursor: pointer;
+  display: block;
+  width: 24px;
+  height: 40px;
+}
+
+.slider__content {
+  margin: 3% 1%;
+  display: flex;
+  align-items: center;
+}
+
+.slider__preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 50%;
+  margin-right: 3rem;
+}
+
+.slider__preview-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slider__about {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+}
+
+.slider__options {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.slider__options-gear {
+  width: 91px;
+  height: 91px;
+  border-radius: 4px;
+  background-color: #9a9a9a;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #6e6e6e;
+    ~ .slider__options-hover {
+      display: block;
+    }
+  }
+}
+
+.gear-icon {
+  width: 100%;
+  height: 100%;
+  fill: $white;
+}
+
+.slider__title {
+  text-align: left;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.slider__desc {
+  color: #666;
+}
+
+.slider__desc-text {
+  margin-right: 10%;
+  margin-bottom: 1.5rem;
+}
+
+.slider__desc-list {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.slider__desc-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+
+.slider__desc-span_bold {
+  font-weight: bold;
+  color: $black;
+  font-size: 1.125rem;
+}
+
+.desc__order {
+  display: flex;
+  align-items: flex-start;
+}
+
+.desc__order-price {
+  font-size: 2.25rem;
+  color: $black;
+  margin-right: 5%;
+  white-space: nowrap;
+}

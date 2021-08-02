@@ -1,0 +1,30 @@
+.button {
+  color: $white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1.125rem 2.5rem;
+  background-color: $red;
+  border-radius: 50px;
+  border: none;
+  
+  &:hover {
+    background-color: $hoverRed;
+  }
+  
+  @include phones {
+    font-size: 19px;
+    padding: 1.3125rem 2.25rem;
+  }
+
+}
+
+.button_transparent {
+  background-color: transparent;
+  font-weight: normal;
+  text-transform: none;
+
+  &:hover {
+    background-color: inherit;
+    color: $red;
+  }
+}

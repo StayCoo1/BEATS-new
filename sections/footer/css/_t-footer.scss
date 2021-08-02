@@ -1,0 +1,14 @@
+@include tablets {
+  .footer__contacts-position {
+    font-size: 1.3125rem;
+  }
+
+  .footer__contacts-tel>a {
+    font-size: 1.125rem;
+    color: $red;
+  }
+
+  .phone-icon {
+    fill: $red;
+  }
+}

@@ -1,0 +1,32 @@
+@include phones {
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__contacts-position {
+    font-size: 1.125rem
+  }
+
+  .footer__contacts-tel {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer__contacts-tel>a {
+    font-size: 1rem;
+    color: $black;
+  }
+
+  .footer__contacts {
+    align-items: center;
+  }
+
+  .footer__contacts-position {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .phone-icon {
+    fill: #000;
+  }
+}

@@ -1,0 +1,58 @@
+//Variables
+$red: #e01f3d;
+$gray: #666;
+$black: #292929;
+$white: #fff;
+$hoverRed: #ca1b36;
+
+//Width
+$containerWidth: 940px;
+$tablets: 768px;
+$phones: 480px;
+
+// Layout & fonts
+@import "./layout/media";
+@import "./layout/normalize";
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import "./layout/base";
+
+//Universal blocks
+@import "./sections/universal-blocks/button";
+@import "./sections/universal-blocks/features";
+@import "./sections/universal-blocks/logo";
+@import "./sections/universal-blocks/menu";
+@import "./sections/universal-blocks/mobile-menu";
+@import "./sections/universal-blocks/title";
+@import "./sections/universal-blocks/options";
+@import "./sections/universal-blocks/review";
+@import "./sections/universal-blocks/form";
+@import "./sections/universal-blocks/radio";
+@import "./sections/universal-blocks/hidden";
+@import "./sections/universal-blocks/fixed-menu";
+@import "./sections/universal-blocks/overlay";
+@import "./sections/universal-blocks/social";
+
+//Sections
+@import "./sections/main/css/main";
+@import "./sections/about/css/about";
+@import "./sections/slider/css/slider";
+@import "./sections/feedbacks/css/feedbacks";
+@import "./sections/order/css/order";
+@import "./sections/footer/css/footer";
+@import "./sections/map/css/map";
+
+//Tablets
+@import "./sections/main/css/t-main";
+@import "./sections/about/css/t-about";
+@import "./sections/slider/css/t-slider";
+@import "./sections/feedbacks/css/t-feedbacks";
+@import "./sections/order/css/t-order";
+@import "./sections/footer/css/t-footer";
+
+//Phones
+@import "./sections/main/css/p-main";
+@import "./sections/about/css/p-about";
+@import "./sections/slider/css/p-slider";
+@import "./sections/feedbacks/css/p-feedbacks";
+@import "./sections/order/css/p-order";
+@import "./sections/footer/css/p-footer";

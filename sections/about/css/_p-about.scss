@@ -1,0 +1,71 @@
+@include phones {
+
+  .about {
+    font-size: 14px;
+  }
+
+  .about__container {
+    justify-content: center;
+  }
+
+  .about__preview {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .about__preview-text {
+    padding: 0;
+  }
+
+  .about__list {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .about__item {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+  }
+
+  .about__item-title {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .about__item-preview {
+    width: 20vw;
+    height: 20vw;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    // flex: 1 1 30%;
+  }
+
+  .about__item-desc {
+    align-items: flex-start;
+    // flex: 1 1 70%;
+
+    p {
+      text-align: left;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

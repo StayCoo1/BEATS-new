@@ -1,0 +1,21 @@
+@include phones {
+
+  .feedback__title {
+    margin-bottom: 3vh;
+  }
+  
+  .review__avatar {
+    padding: 0;
+    width: 30vw;
+    margin: 3vh auto;
+  }
+  
+  .review__content-username {
+    margin-bottom: 3vh;
+  }
+
+  .feedbacks__avatars-item {
+    width: 64px;
+    height: 64px;
+  }
+}

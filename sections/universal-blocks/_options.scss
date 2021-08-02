@@ -1,0 +1,40 @@
+.slider__options-hover {
+  display: none;
+  font-size: 16px;
+  background-color: #d5d5d5;
+  color: #000;
+  position: absolute;
+  opacity: 1;
+  left: 91px;
+  border-radius: 4px;
+  padding: 1.25rem 1rem;
+
+  &:hover {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.slider__options-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__options-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14rem;
+  margin-bottom: 1rem;
+}
+
+.option-desc {
+  display: flex;
+  align-items: center;
+}
+
+.option-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+}

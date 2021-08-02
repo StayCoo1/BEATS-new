@@ -1,0 +1,33 @@
+@include tablets {
+  
+  .feedbacks__review {
+    flex-direction: column;
+  }
+  
+  .review__content {
+    text-align: center;
+    padding: 0 3%;
+  }
+
+  .review__content-title {
+    margin-bottom: 1rem;
+  }
+
+  .review__content-desc {
+    margin-bottom: 1rem;
+  }
+
+  .review__content-username {
+    margin-bottom: 2rem;
+  }
+
+  .review__avatar {
+    width: 60vw;
+    max-width: 215px;
+  }
+
+  .feedbacks__avatars-border {
+    border-width: 4px;
+  }
+}
+

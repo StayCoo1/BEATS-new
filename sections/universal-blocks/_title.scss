@@ -1,0 +1,16 @@
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.25rem;
+  text-transform: uppercase;
+  
+  @include tablets {
+    text-align: center;
+  }
+  
+  @include phones {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+}

@@ -1,0 +1,26 @@
+@include tablets {
+
+  .about__preview {
+    margin-bottom: 1.5rem;
+  }
+
+  .about__preview-title {
+    margin-bottom: 1rem;
+  }
+
+  .about__item {
+    width: 32%;
+  }
+
+  .about__item-preview {
+    margin-bottom: 1rem;
+  }
+
+  .about__item-title {
+    line-height: 1.7rem;
+  }
+
+  .about__item-text {
+    margin: 0;
+  }
+}

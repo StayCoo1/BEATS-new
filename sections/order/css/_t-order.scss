@@ -1,0 +1,39 @@
+@include tablets {
+  .order__title {
+    margin: 20px auto;
+  }
+
+  .form {
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .form__title {
+    font-size: 16px;
+  }
+
+  .form__col {
+    margin: 0
+  }
+
+  .form__input {
+    max-height: 36px;
+  }
+
+  .form__buttons {
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  .form__input_textarea {
+    height: 6rem;
+  }
+
+  .button_transparent {
+    color: $red;
+  }
+
+  .radio__title {
+    font-size: 16px;
+  }
+}

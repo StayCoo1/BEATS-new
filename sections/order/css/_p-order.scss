@@ -1,0 +1,39 @@
+@include phones {
+  .order__title {
+    margin: 0 auto;
+  }
+
+  .form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form__title {
+    font-size: 16px;
+  }
+
+  .form__col {
+    margin: 0;
+  }
+
+  .form__row {
+    margin-bottom: 1vh;
+  }
+
+  .form__input {
+    padding: 0.375rem 0.25rem;
+  }
+
+  .form__buttons {
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  .form__input_textarea {
+    margin-bottom: 2vh;
+  }
+
+  .radio__title {
+    font-size: 16px;
+  }
+}
