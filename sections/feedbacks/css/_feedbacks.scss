@@ -9,8 +9,25 @@
   margin-bottom: 2rem;
 }
 
+.feedbacks__reviews {
+  position: relative;
+  min-height: 300px;
+}
+
 .feedbacks__review {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+  opacity: 0;
   margin-bottom: 1rem;
+}
+
+.feedbacks__review_active {
+  position: static;
+  opacity: 1;
 }
 
 .feedbacks__avatars-list {
@@ -46,10 +63,11 @@
   opacity: 0;
 }
 
-.feedbacks__avatars-link:hover>.feedbacks__avatars-border{
+.feedbacks__avatars-link:hover>.feedbacks__avatars-border {
   opacity: 1;
 }
 
 .feedbacks__avatars-item_active>.feedbacks__avatars-link>.feedbacks__avatars-border {
   opacity: 1;
 }
+

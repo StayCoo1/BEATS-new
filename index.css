@@ -435,7 +435,7 @@ footer {
 @media screen and (max-width: 480px) {
   .button {
     font-size: 19px;
-    padding: 1.3125rem 2.25rem;
+    padding: 1.3125rem 2rem;
   }
 }
 
@@ -1030,7 +1030,6 @@ footer {
 }
 
 .slider__content {
-  margin: 3% 1%;
   display: flex;
   align-items: center;
 }
@@ -1135,6 +1134,14 @@ footer {
   white-space: nowrap;
 }
 
+.bx-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: inherit;
+  margin-bottom: 0;
+}
+
 .feedbacks__container {
   display: flex;
   flex-direction: column;
@@ -1146,8 +1153,25 @@ footer {
   margin-bottom: 2rem;
 }
 
+.feedbacks__reviews {
+  position: relative;
+  min-height: 300px;
+}
+
 .feedbacks__review {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+  opacity: 0;
   margin-bottom: 1rem;
+}
+
+.feedbacks__review_active {
+  position: static;
+  opacity: 1;
 }
 
 .feedbacks__avatars-list {

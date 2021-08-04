@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
   <title>BEATS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -163,109 +164,207 @@
     <section class="section slider">
       <div class="container slider__container">
         <div class="slider__arrows_pc">
-          <svg class="slider__arrow">
+          <svg class="slider__arrow slider__arrow-prev">
             <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
           </svg>
         </div>
-        <div class="slider__content">
-          <div class="slider__preview">
-            <div class="slider__arrows_mobile">
-              <svg class="slider__arrow">
-                <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
-              </svg>
-            </div>
-            <div class="slider__preview-wrap">
-              <img src="./sections/slider/content/slider-preview-1.png" alt="" class="slider__preview-img">
-            </div>
-            <div class="slider__arrows_mobile">
-              <svg class="slider__arrow">
-                <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="slider__about">
-            <div class="slider__options">
-              <div class="slider__options-gear">
-                <svg class="gear-icon">
-                  <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
+        <ul class="slider__contents">
+          <li class="slider__content">
+            <div class="slider__preview">
+              <div class="slider__arrows_mobile">
+                <svg class="slider__arrow slider__arrow-prev">
+                  <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
                 </svg>
               </div>
-              <div class="slider__options-hover">
-                <ul class="slider__options-list">
-                  <li class="slider__options-item">
-                    <div class="option-desc">
-                      <svg class="option-icon">
-                        <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
-                      </svg>
-                      <span>Bluetooth</span>
-                    </div>
-                    <div class="option-value">4.0</div>
+              <div class="slider__preview-wrap">
+                <img src="./sections/slider/content/slider-preview-1.png" alt="" class="slider__preview-img">
+              </div>
+              <div class="slider__arrows_mobile">
+                <svg class="slider__arrow slider__arrow-next">
+                  <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="slider__about">
+              <div class="slider__options">
+                <div class="slider__options-gear">
+                  <svg class="gear-icon">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
+                  </svg>
+                </div>
+                <div class="slider__options-hover">
+                  <ul class="slider__options-list">
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
+                        </svg>
+                        <span>Bluetooth</span>
+                      </div>
+                      <div class="option-value">4.0</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
+                        </svg>
+                        <span>Дальность</span>
+                      </div>
+                      <div class="option-value">12 м</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
+                        </svg>
+                        <span>Зарядка</span>
+                      </div>
+                      <div class="option-value">3 ч</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
+                        </svg>
+                        <span>Вес</span>
+                      </div>
+                      <div class="option-value">215 гр</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
+                        </svg>
+                        <span>Гарантия</span>
+                      </div>
+                      <div class="option-value">1 год</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="title slider__title">beats solo 3. цвет
+                «атласное серебро»</h3>
+              <div class="slider__desc">
+                <div class="slider__desc-text">
+                  <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
+                    iPhone — они мгновенно подключатся к нему.</p>
+                </div>
+                <ul class="slider__desc-list">
+                  <li class="slider__desc-item">
+                    <span class="slider__desc-span">Зарядка</span>
+                    <span class="slider__desc-span_bold">2 часа</span>
                   </li>
-                  <li class="slider__options-item">
-                    <div class="option-desc">
-                      <svg class="option-icon">
-                        <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
-                      </svg>
-                      <span>Дальность</span>
-                    </div>
-                    <div class="option-value">12 м</div>
-                  </li>
-                  <li class="slider__options-item">
-                    <div class="option-desc">
-                      <svg class="option-icon">
-                        <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
-                      </svg>
-                      <span>Зарядка</span>
-                    </div>
-                    <div class="option-value">3 ч</div>
-                  </li>
-                  <li class="slider__options-item">
-                    <div class="option-desc">
-                      <svg class="option-icon">
-                        <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
-                      </svg>
-                      <span>Вес</span>
-                    </div>
-                    <div class="option-value">215 гр</div>
-                  </li>
-                  <li class="slider__options-item">
-                    <div class="option-desc">
-                      <svg class="option-icon">
-                        <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
-                      </svg>
-                      <span>Гарантия</span>
-                    </div>
-                    <div class="option-value">1 год</div>
+                  <li class="slider__desc-item">
+                    <span class="slider__desc-span">Вес</span>
+                    <span class="slider__desc-span_bold">215 грамм</span>
                   </li>
                 </ul>
+                <div class="desc__order">
+                  <div class="desc__order-price">14 990 ₽</div>
+                  <a href="#" class="button slider__button">Заказать</a>
+                </div>
               </div>
             </div>
-            <h3 class="title slider__title">beats solo 3. цвет
-              «атласное серебро»</h3>
-            <div class="slider__desc">
-              <div class="slider__desc-text">
-                <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
-                  iPhone — они мгновенно подключатся к нему.</p>
+          </li>
+          <li class="slider__content">
+            <div class="slider__preview">
+              <div class="slider__arrows_mobile">
+                <svg class="slider__arrow">
+                  <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
+                </svg>
               </div>
-              <ul class="slider__desc-list">
-                <li class="slider__desc-item">
-                  <span class="slider__desc-span">Зарядка</span>
-                  <span class="slider__desc-span_bold">2 часа</span>
-                </li>
-                <li class="slider__desc-item">
-                  <span class="slider__desc-span">Вес</span>
-                  <span class="slider__desc-span_bold">215 грамм</span>
-                </li>
-              </ul>
-              <div class="desc__order">
-                <div class="desc__order-price">14 990 ₽</div>
-                <a href="#" class="button slider__button">Заказать</a>
+              <div class="slider__preview-wrap">
+                <img src="./sections/slider/content/slider-preview-2.png" alt="" class="slider__preview-img">
+              </div>
+              <div class="slider__arrows_mobile">
+                <svg class="slider__arrow">
+                  <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
+                </svg>
               </div>
             </div>
-          </div>
-        </div>
+            <div class="slider__about">
+              <div class="slider__options">
+                <div class="slider__options-gear">
+                  <svg class="gear-icon">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
+                  </svg>
+                </div>
+                <div class="slider__options-hover">
+                  <ul class="slider__options-list">
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
+                        </svg>
+                        <span>Bluetooth</span>
+                      </div>
+                      <div class="option-value">4.0</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
+                        </svg>
+                        <span>Дальность</span>
+                      </div>
+                      <div class="option-value">10 м</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
+                        </svg>
+                        <span>Зарядка</span>
+                      </div>
+                      <div class="option-value">2 ч</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
+                        </svg>
+                        <span>Вес</span>
+                      </div>
+                      <div class="option-value">215 гр</div>
+                    </li>
+                    <li class="slider__options-item">
+                      <div class="option-desc">
+                        <svg class="option-icon">
+                          <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
+                        </svg>
+                        <span>Гарантия</span>
+                      </div>
+                      <div class="option-value">1 год</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="title slider__title">beats solo pro. цвет «красный цитрус»</h3>
+              <div class="slider__desc">
+                <div class="slider__desc-text">
+                  <p>Беспроводные наушники Solo Pro помогают настроиться на творчество. Для этого предусмотрено два
+                    режима прослушивания: режим с активным шумоподавлением и Прозрачный режим.</p>
+                </div>
+                <ul class="slider__desc-list">
+                  <li class="slider__desc-item">
+                    <span class="slider__desc-span">Зарядка</span>
+                    <span class="slider__desc-span_bold">2 часа</span>
+                  </li>
+                  <li class="slider__desc-item">
+                    <span class="slider__desc-span">Вес</span>
+                    <span class="slider__desc-span_bold">215 грамм</span>
+                  </li>
+                </ul>
+                <div class="desc__order">
+                  <div class="desc__order-price">24 990 ₽</div>
+                  <a href="#" class="button slider__button">Заказать</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
         <div class="slider__arrows_pc">
-          <svg class="slider__arrow">
+          <svg class="slider__arrow slider__arrow-next">
             <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
           </svg>
         </div>
@@ -274,39 +373,72 @@
     <section class="section feedbacks">
       <div class="container feedbacks__container">
         <h2 class="title feedback__title">Отзывы</h2>
-        <div class="review feedbacks__review">
-          <div class="review__avatar">
-            <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar">
-          </div>
-          <div class="review__content">
-            <h3 class="review__content-title">Отличный звук</h3>
-            <div class="review__content-desc">
-              <p>
-                Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
-                компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
-                всегда
-                под рукой. Это приятно и удобно.
-              </p>
+        <ul class="feedbacks__reviews">
+          <li class="review feedbacks__review feedbacks__review_active" data-linked-with="one">
+            <div class="review__avatar">
+              <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar">
             </div>
-            <div class="review__content-username">Билли Айлиш</div>
-          </div>
-        </div>
+            <div class="review__content">
+              <h3 class="review__content-title">Отличный звук</h3>
+              <div class="review__content-desc">
+                <p>
+                  Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
+                  компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
+                  всегда
+                  под рукой. Это приятно и удобно.
+                </p>
+              </div>
+              <div class="review__content-username">Билли Айлиш</div>
+            </div>
+          </li>
+          <li class="review feedbacks__review" data-linked-with="two">
+            <div class="review__avatar">
+              <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar">
+            </div>
+            <div class="review__content">
+              <h3 class="review__content-title">Крутой дизайн</h3>
+              <div class="review__content-desc">
+                <p>
+                  После тренировок всегда хочется быстро закинуться чем-то белковым, потому что до дома ещё нужно
+                  доехать. А кушать хочется. Протеиновые батончики всегда выручают в этом плане. Спасибо производителю
+                  за этот качественный и экологичный продукт.
+                </p>
+              </div>
+              <div class="review__content-username">Вадим Грачев</div>
+            </div>
+          </li>
+          <li class="review feedbacks__review" data-linked-with="three">
+            <div class="review__avatar">
+              <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar">
+            </div>
+            <div class="review__content">
+              <h3 class="review__content-title">На долго хватает заряда</h3>
+              <div class="review__content-desc">
+                <p>
+                  Батончики понравились. На мой взгляд слегка завышена цена по сравнению с конкурентами, однако, как
+                  говорится – оно того стоит. Нравится носить с собой, нравится держать в руке. Ну и конечно же, кушать.
+                </p>
+              </div>
+              <div class="review__content-username">Мария Орлова</div>
+            </div>
+          </li>
+        </ul>
         <ul class="feedbacks__avatars-list">
           <li class="feedbacks__avatars-item feedbacks__avatars-item_active">
-            <a href="#" class="feedbacks__avatars-link">
+            <a href="#" class="feedbacks__avatars-link" data-open="one">
               <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar-small" class="feedbacks__avatars-img">
               <div class="feedbacks__avatars-border"></div>
             </a>
           </li>
           <li class="feedbacks__avatars-item">
-            <a href="#" class="feedbacks__avatars-link">
-              <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar-small" class="feedbacks__avatars-img">
+            <a href="#" class="feedbacks__avatars-link" data-open="two">
+              <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar-small" class="feedbacks__avatars-img">
               <div class="feedbacks__avatars-border"></div>
             </a>
           </li>
           <li class="feedbacks__avatars-item">
-            <a href="#" class="feedbacks__avatars-link">
-              <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar-small" class="feedbacks__avatars-img">
+            <a href="#" class="feedbacks__avatars-link" data-open="three">
+              <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar-small" class="feedbacks__avatars-img">
               <div class="feedbacks__avatars-border"></div>
             </a>
           </li>
@@ -501,7 +633,12 @@
       </ul>
     </nav>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- <script src="./js/jQuerry.js"></script> -->
   <script src="./js/overlay.js"></script>
+  <script src="./js/feedbacks.js"></script>
+  <script src="./js/slider.js"></script>
 </body>
 
 </html>
