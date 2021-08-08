@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BEATS</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
   <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -570,39 +571,40 @@
       <div class="container order__container">
         <h2 class="title order__title">Закажите доставку</h2>
         <form class="form order__form">
+          <input type="hidden" name="to" value="123@ya.ru">
           <div class="form__col">
             <div class="form__row">
               <label class="form__block">
                 <div class="form__title">Имя</div>
-                <input class="form__input"></input>
+                <input type="text" name="name" class="form__input"></input>
               </label>
               <label class="form__block">
                 <div class="form__title">Телефон</div>
-                <input class="form__input"></input>
+                <input type="text" name="phone" class="form__input"></input>
               </label>
             </div>
             <div class="form__row">
               <label class="form__block">
                 <div class="form__title">Улица</div>
-                <input class="form__input"></input>
+                <input type="text" name="street" class="form__input"></input>
               </label>
             </div>
             <div class="form__row">
               <label class="form__block">
                 <div class="form__title">Дом</div>
-                <input class="form__input"></input>
+                <input type="text" name="home" class="form__input"></input>
               </label>
               <label class="form__block">
                 <div class="form__title">Корпус</div>
-                <input class="form__input"></input>
+                <input type="text" name="part" class="form__input"></input>
               </label>
               <label class="form__block">
                 <div class="form__title">Квартира</div>
-                <input class="form__input"></input>
+                <input type="text" name="room" class="form__input"></input>
               </label>
               <label class="form__block">
                 <div class="form__title">Этаж</div>
-                <input class="form__input"></input>
+                <input type="text" name="floor" class="form__input"></input>
               </label>
             </div>
           </div>
@@ -610,7 +612,7 @@
             <div class="form__row">
               <label class="form__block">
                 <div class="form__title">Комментарий</div>
-                <textarea class="form__input form__input_textarea"></textarea>
+                <textarea type="text" name="comment" class="form__input form__input_textarea"></textarea>
               </label>
             </div>
             <div class="form__controls">
@@ -754,12 +756,20 @@
       </ul>
     </nav>
   </div>
+  <div id="modal" class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__text">Сообщение отправлено</div>
+      <a href="#" class="button modal__button-js">Закрыть</a>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
   <script src="./js/overlay.js"></script>
   <script src="./js/feedbacks.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/team.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
