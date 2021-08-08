@@ -1,0 +1,43 @@
+@include tablets {
+
+  .team {
+    color: #000;
+  }
+
+  .team__list {
+    display: none;
+  }
+
+  .team__title {
+    margin-bottom: 2rem;
+  }
+
+  .team__list-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .team__item {
+    width: 100%;
+  }
+
+  .team__content {
+    position: relative;
+    height: 0;
+    top: 0;
+  }
+
+  .team__content-title {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  
+  .team__content-text {
+    margin-bottom: 1rem;
+
+  }
+
+
+}

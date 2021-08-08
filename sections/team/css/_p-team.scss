@@ -1,0 +1,17 @@
+@include phones {
+
+  .team__title  {
+    margin-bottom: 1rem;
+  }
+
+  .team__list-mobile {
+    width: 80%;
+  }
+
+  .team__avatar {
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    
+  }
+}
