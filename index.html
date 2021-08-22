@@ -7,724 +7,776 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BEATS</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <section class="section main">
-      <div class="container main__container">
-        <header class="header">
-          <div class="header__logo">
-            <a href="#" class="logo">
-              <svg class="logo-icon">
-                <use xlink:href="./sections/main/content/main-sprite.svg#logo"></use>
-              </svg>
+    <div class="maincontent">
+      <section class="section main" data-section-id="main">
+        <div class="container main__container">
+          <header class="header">
+            <div class="header__logo">
+              <a href="#" class="logo">
+                <svg class="logo-icon">
+                  <use xlink:href="./sections/main/content/main-sprite.svg#logo"></use>
+                </svg>
+              </a>
+            </div>
+            <nav class="menu header__menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="">О нас</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="slider">Наушники</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="team">Команда</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="color">Цвета</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="feedbacks">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="">Как мы работаем</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link" data-scroll-to="map">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="javascript:void(0)" class="mobile-menu" onclick="openNav()">
+              <span class="mobile-menu__plank"></span>
+              <span class="mobile-menu__plank"></span>
+              <span class="mobile-menu__plank"></span>
             </a>
+            <address class="contacts header__contacts">
+              <svg class="phone-icon">
+                <use xlink:href="./sections/main/content/main-sprite.svg#phone"></use>
+              </svg>
+              <a href="tel:+78009039090" class="contacts__phone">8 800 903 90 90</a>
+            </address>
+          </header>
+          <div class="main__content">
+            <div class="main__content-wrap">
+              <h1 class="title main_title">Беспроводные наушники Beats Solo 3</h1>
+              <div class="main__desc">
+                <p>Встречайте новую версию наушников из линейки Powerbeats.</p>
+              </div>
+              <a href="#" class="button" data-scroll-to="order">Заказать</a>
+            </div>
+            <div class="main__content-preview">
+              <img src="./sections/main/content/headphones.png" alt="preview" class="main__content-img">
+            </div>
           </div>
-          <nav class="menu header__menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__link">О нас</a>
+          <div class="features">
+            <ul class="features__list">
+              <li class="feature">
+                <div class="feature__img">
+                  <svg class="feature__icon">
+                    <use xlink:href="./sections/main/content/main-sprite.svg#listening"></use>
+                  </svg>
+                </div>
+                <div class="feature__text">Безупречный звук</div>
               </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Наушники</a>
+              <li class="feature">
+                <div class="feature__img">
+                  <svg class="feature__icon">
+                    <use xlink:href="./sections/main/content/main-sprite.svg#charging"></use>
+                  </svg>
+                </div>
+                <div class="feature__text">До 40 часов работы</div>
               </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Команда</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Цвета</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Отзывы</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Как мы работаем</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Контакты</a>
+              <li class="feature">
+                <div class="feature__img">
+                  <svg class="feature__icon">
+                    <use xlink:href="./sections/main/content/main-sprite.svg#plug"></use>
+                  </svg>
+                </div>
+                <div class="feature__text">Технология Fast Fuel</div>
               </li>
             </ul>
-          </nav>
-          <a href="javascript:void(0)" class="mobile-menu" onclick="openNav()">
-            <span class="mobile-menu__plank"></span>
-            <span class="mobile-menu__plank"></span>
-            <span class="mobile-menu__plank"></span>
-          </a>
-          <address class="contacts header__contacts">
-            <svg class="phone-icon">
-              <use xlink:href="./sections/main/content/main-sprite.svg#phone"></use>
-            </svg>
-            <a href="tel:+78009039090" class="contacts__phone">8 800 903 90 90</a>
-          </address>
-        </header>
-        <div class="main__content">
-          <div class="main__content-wrap">
-            <h1 class="title main_title">Беспроводные наушники Beats Solo 3</h1>
-            <div class="main__desc">
-              <p>Встречайте новую версию наушников из линейки Powerbeats.</p>
-            </div>
-            <a href="#" class="button">Заказать</a>
-          </div>
-          <div class="main__content-preview">
-            <img src="./sections/main/content/headphones.png" alt="preview" class="main__content-img">
           </div>
         </div>
-        <div class="features">
-          <ul class="features__list">
-            <li class="feature">
-              <div class="feature__img">
-                <svg class="feature__icon">
-                  <use xlink:href="./sections/main/content/main-sprite.svg#listening"></use>
+      </section>
+      <section class="section about" data-sidemenu-theme="origin" data-section-id="about">
+        <div class="container about__container">
+          <div class="about__preview">
+            <h2 class="title about__preview-title">Почему Beats solo 3?</h2>
+            <div class="about__preview-text">
+              <p>Процессор W1 работает невероятно эффективно и позволяет легко подключать наушники к различным устройствам
+                Apple.</p>
+            </div>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__item-preview">
+                <svg class="about__icon">
+                  <use xlink:href="./sections/about/content/about-sprite.svg#battery"></use>
                 </svg>
               </div>
-              <div class="feature__text">Безупречный звук</div>
+              <div class="about__item-desc">
+                <h4 class="about__item-title">40 часов работы</h4>
+                <div class="about__item-text">
+                  <p>
+                    Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый
+                    день.
+                  </p>
+                </div>
+              </div>
             </li>
-            <li class="feature">
-              <div class="feature__img">
-                <svg class="feature__icon">
-                  <use xlink:href="./sections/main/content/main-sprite.svg#charging"></use>
+            <li class="about__item">
+              <div class="about__item-preview">
+                <svg class="about__icon">
+                  <use xlink:href="./sections/about/content/about-sprite.svg#speaker"></use>
                 </svg>
               </div>
-              <div class="feature__text">До 40 часов работы</div>
+              <div class="about__item-desc">
+                <h4 class="about__item-title">Фирменное звучание</h4>
+                <div class="about__item-text">
+                  <p>
+                    Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду —
+                    куда бы вы ни отправились.
+                  </p>
+                </div>
+              </div>
             </li>
-            <li class="feature">
-              <div class="feature__img">
-                <svg class="feature__icon">
-                  <use xlink:href="./sections/main/content/main-sprite.svg#plug"></use>
+            <li class="about__item">
+              <div class="about__item-preview">
+                <svg class="about__icon">
+                  <use xlink:href="./sections/about/content/about-sprite.svg#speed"></use>
                 </svg>
               </div>
-              <div class="feature__text">Технология Fast Fuel</div>
+              <div class="about__item-desc">
+                <h4 class="about__item-title">Быстрая зарядка</h4>
+                <div class="about__item-text">
+                  <p>
+                    Благодаря технологии Fast Fuel всего через 5 минут зарядки вы сможете слушать музыку ещё 3 часа.
+                  </p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-    <section class="section about">
-      <div class="container about__container">
-        <div class="about__preview">
-          <h2 class="title about__preview-title">Почему Beats solo 3?</h2>
-          <div class="about__preview-text">
-            <p>Процессор W1 работает невероятно эффективно и позволяет легко подключать наушники к различным устройствам
-              Apple.</p>
+      </section>
+      <section class="section slider" data-sidemenu-theme="origin" data-section-id="slider">
+        <div class="container slider__container">
+          <div class="slider__arrows_pc">
+            <svg class="slider__arrow slider__arrow-prev">
+              <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
+            </svg>
+          </div>
+          <ul class="slider__contents">
+            <li class="slider__content">
+              <div class="slider__preview">
+                <div class="slider__arrows_mobile">
+                  <svg class="slider__arrow slider__arrow-prev">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
+                  </svg>
+                </div>
+                <div class="slider__preview-wrap">
+                  <img src="./sections/slider/content/slider-preview-1.png" alt="" class="slider__preview-img">
+                </div>
+                <div class="slider__arrows_mobile">
+                  <svg class="slider__arrow slider__arrow-next">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="slider__about">
+                <div class="slider__options">
+                  <div class="slider__options-gear">
+                    <svg class="gear-icon">
+                      <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
+                    </svg>
+                  </div>
+                  <div class="slider__options-hover">
+                    <ul class="slider__options-list">
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
+                          </svg>
+                          <span>Bluetooth</span>
+                        </div>
+                        <div class="option-value">4.0</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
+                          </svg>
+                          <span>Дальность</span>
+                        </div>
+                        <div class="option-value">12 м</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
+                          </svg>
+                          <span>Зарядка</span>
+                        </div>
+                        <div class="option-value">3 ч</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
+                          </svg>
+                          <span>Вес</span>
+                        </div>
+                        <div class="option-value">215 гр</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
+                          </svg>
+                          <span>Гарантия</span>
+                        </div>
+                        <div class="option-value">1 год</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h3 class="title slider__title">beats solo 3. цвет
+                  «атласное серебро»</h3>
+                <div class="slider__desc">
+                  <div class="slider__desc-text">
+                    <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
+                      iPhone — они мгновенно подключатся к нему.</p>
+                  </div>
+                  <ul class="slider__desc-list">
+                    <li class="slider__desc-item">
+                      <span class="slider__desc-span">Зарядка</span>
+                      <span class="slider__desc-span_bold">2 часа</span>
+                    </li>
+                    <li class="slider__desc-item">
+                      <span class="slider__desc-span">Вес</span>
+                      <span class="slider__desc-span_bold">215 грамм</span>
+                    </li>
+                  </ul>
+                  <div class="desc__order">
+                    <div class="desc__order-price">14 990 ₽</div>
+                    <a href="#" class="button slider__button">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="slider__content">
+              <div class="slider__preview">
+                <div class="slider__arrows_mobile">
+                  <svg class="slider__arrow">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
+                  </svg>
+                </div>
+                <div class="slider__preview-wrap">
+                  <img src="./sections/slider/content/slider-preview-2.png" alt="" class="slider__preview-img">
+                </div>
+                <div class="slider__arrows_mobile">
+                  <svg class="slider__arrow">
+                    <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="slider__about">
+                <div class="slider__options">
+                  <div class="slider__options-gear">
+                    <svg class="gear-icon">
+                      <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
+                    </svg>
+                  </div>
+                  <div class="slider__options-hover">
+                    <ul class="slider__options-list">
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
+                          </svg>
+                          <span>Bluetooth</span>
+                        </div>
+                        <div class="option-value">4.0</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
+                          </svg>
+                          <span>Дальность</span>
+                        </div>
+                        <div class="option-value">10 м</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
+                          </svg>
+                          <span>Зарядка</span>
+                        </div>
+                        <div class="option-value">2 ч</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
+                          </svg>
+                          <span>Вес</span>
+                        </div>
+                        <div class="option-value">215 гр</div>
+                      </li>
+                      <li class="slider__options-item">
+                        <div class="option-desc">
+                          <svg class="option-icon">
+                            <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
+                          </svg>
+                          <span>Гарантия</span>
+                        </div>
+                        <div class="option-value">1 год</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h3 class="title slider__title">beats solo pro. цвет «красный цитрус»</h3>
+                <div class="slider__desc">
+                  <div class="slider__desc-text">
+                    <p>Беспроводные наушники Solo Pro помогают настроиться на творчество. Для этого предусмотрено два
+                      режима прослушивания: режим с активным шумоподавлением и Прозрачный режим.</p>
+                  </div>
+                  <ul class="slider__desc-list">
+                    <li class="slider__desc-item">
+                      <span class="slider__desc-span">Зарядка</span>
+                      <span class="slider__desc-span_bold">2 часа</span>
+                    </li>
+                    <li class="slider__desc-item">
+                      <span class="slider__desc-span">Вес</span>
+                      <span class="slider__desc-span_bold">215 грамм</span>
+                    </li>
+                  </ul>
+                  <div class="desc__order">
+                    <div class="desc__order-price">24 990 ₽</div>
+                    <a href="#" class="button slider__button">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="slider__arrows_pc">
+            <svg class="slider__arrow slider__arrow-next">
+              <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
+            </svg>
           </div>
         </div>
-        <ul class="about__list">
-          <li class="about__item">
-            <div class="about__item-preview">
-              <svg class="about__icon">
-                <use xlink:href="./sections/about/content/about-sprite.svg#battery"></use>
-              </svg>
-            </div>
-            <div class="about__item-desc">
-              <h4 class="about__item-title">40 часов работы</h4>
-              <div class="about__item-text">
-                <p>
+      </section>
+      <section class="section team" data-sidemenu-theme="origin" data-section-id="team">
+        <div class="container team__container">
+          <h2 class="title team__title">Команда</h2>
+          <ul class="team__list">
+            <li class="team__item">
+              <div class="team__avatar">
+                <img src="./sections/team/content/team-1.png" alt="avatar" class="team__avatar-img">
+              </div>
+              <h5 class="team__name">Борис Федорович</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__content-title">Главный технолог</div>
+                  <div class="team__content-text">
+                    <p>Отвечает за вкусовые качества и калорийность.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__avatar">
+                <img src="./sections/team/content/team-2.png" alt="avatar" class="team__avatar-img">
+              </div>
+              <h5 class="team__name">Алла Иванова</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__content-title">Специалист по упаковке</div>
+                  <div class="team__content-text">
+                    <p>Автор запоминающегося стиля наших наушников.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__avatar">
+                <img src="./sections/team/content/team-3.png" alt="avatar" class="team__avatar-img">
+              </div>
+              <h5 class="team__name">Кирилл Матросов</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__content-title">Оператор</div>
+                  <div class="team__content-text">
+                    <p>Разработал дизайн наушников beats solo 3.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__avatar">
+                <img src="./sections/team/content/team-4.png" alt="avatar" class="team__avatar-img">
+              </div>
+              <h5 class="team__name">Мила Рыжкова</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__content-title">PR, маркетинг</div>
+                  <div class="team__content-text">
+                    <p>По всем вопросам сотрудничества и рекламы писать только Миле.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="team__list-mobile">
+            <li class="team__item">
+              <h5 class="team__name">Борис Федорович</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__avatar">
+                    <img src="./sections/team/content/team-1.png" alt="avatar" class="team__avatar-img">
+                  </div>
+                  <div class="team__content-title">Главный технолог</div>
+                  <div class="team__content-text">
+                    <p>Отвечает за вкусовые качества и калорийность.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <h5 class="team__name">Алла Иванова</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__avatar">
+                    <img src="./sections/team/content/team-2.png" alt="avatar" class="team__avatar-img">
+                  </div>
+                  <div class="team__content-title">Специалист по упаковке</div>
+                  <div class="team__content-text">
+                    <p>Автор запоминающегося стиля наших наушников.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <h5 class="team__name">Кирилл Матросов</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__avatar">
+                    <img src="./sections/team/content/team-3.png" alt="avatar" class="team__avatar-img">
+                  </div>
+                  <div class="team__content-title">Оператор</div>
+                  <div class="team__content-text">
+                    <p>Разработал дизайн наушников beats solo 3.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <h5 class="team__name">Мила Рыжкова</h5>
+              <div class="team__content">
+                <div class="team__content-wrap">
+                  <div class="team__avatar">
+                    <img src="./sections/team/content/team-4.png" alt="avatar" class="team__avatar-img">
+                  </div>
+                  <div class="team__content-title">PR, маркетинг</div>
+                  <div class="team__content-text">
+                    <p>По всем вопросам сотрудничества и рекламы писать только Миле.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section color" data-sidemenu-theme="black" data-section-id="color">
+        <h1 class="title color__title">Цвета</h1>
+        <ul class="color-menu">
+          <li class="color-menu__item">
+            <a href="#" class="color-menu__title color-menu__title_gray">
+              <div class="color-menu__text">«Атласное серебро»</div>
+            </a>
+            <div class="color-menu__content">
+              <div class="color-menu__container">
+                <div class="color-menu__content-text">
                   Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый
-                  день.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__item-preview">
-              <svg class="about__icon">
-                <use xlink:href="./sections/about/content/about-sprite.svg#speaker"></use>
-              </svg>
-            </div>
-            <div class="about__item-desc">
-              <h4 class="about__item-title">Фирменное звучание</h4>
-              <div class="about__item-text">
-                <p>
-                  Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду —
-                  куда бы вы ни отправились.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__item-preview">
-              <svg class="about__icon">
-                <use xlink:href="./sections/about/content/about-sprite.svg#speed"></use>
-              </svg>
-            </div>
-            <div class="about__item-desc">
-              <h4 class="about__item-title">Быстрая зарядка</h4>
-              <div class="about__item-text">
-                <p>
-                  Благодаря технологии Fast Fuel всего через 5 минут зарядки вы сможете слушать музыку ещё 3 часа.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="section slider">
-      <div class="container slider__container">
-        <div class="slider__arrows_pc">
-          <svg class="slider__arrow slider__arrow-prev">
-            <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
-          </svg>
-        </div>
-        <ul class="slider__contents">
-          <li class="slider__content">
-            <div class="slider__preview">
-              <div class="slider__arrows_mobile">
-                <svg class="slider__arrow slider__arrow-prev">
-                  <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
-                </svg>
-              </div>
-              <div class="slider__preview-wrap">
-                <img src="./sections/slider/content/slider-preview-1.png" alt="" class="slider__preview-img">
-              </div>
-              <div class="slider__arrows_mobile">
-                <svg class="slider__arrow slider__arrow-next">
-                  <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="slider__about">
-              <div class="slider__options">
-                <div class="slider__options-gear">
-                  <svg class="gear-icon">
-                    <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
-                  </svg>
-                </div>
-                <div class="slider__options-hover">
-                  <ul class="slider__options-list">
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
-                        </svg>
-                        <span>Bluetooth</span>
-                      </div>
-                      <div class="option-value">4.0</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
-                        </svg>
-                        <span>Дальность</span>
-                      </div>
-                      <div class="option-value">12 м</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
-                        </svg>
-                        <span>Зарядка</span>
-                      </div>
-                      <div class="option-value">3 ч</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
-                        </svg>
-                        <span>Вес</span>
-                      </div>
-                      <div class="option-value">215 гр</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
-                        </svg>
-                        <span>Гарантия</span>
-                      </div>
-                      <div class="option-value">1 год</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <h3 class="title slider__title">beats solo 3. цвет
-                «атласное серебро»</h3>
-              <div class="slider__desc">
-                <div class="slider__desc-text">
-                  <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
-                    iPhone — они мгновенно подключатся к нему.</p>
-                </div>
-                <ul class="slider__desc-list">
-                  <li class="slider__desc-item">
-                    <span class="slider__desc-span">Зарядка</span>
-                    <span class="slider__desc-span_bold">2 часа</span>
-                  </li>
-                  <li class="slider__desc-item">
-                    <span class="slider__desc-span">Вес</span>
-                    <span class="slider__desc-span_bold">215 грамм</span>
-                  </li>
-                </ul>
-                <div class="desc__order">
-                  <div class="desc__order-price">14 990 ₽</div>
-                  <a href="#" class="button slider__button">Заказать</a>
+                  день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в
+                  наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились.
+                  Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.
                 </div>
               </div>
             </div>
           </li>
-          <li class="slider__content">
-            <div class="slider__preview">
-              <div class="slider__arrows_mobile">
-                <svg class="slider__arrow">
-                  <use xlink:href="./sections/slider/content/slider-sprite.svg#left"></use>
-                </svg>
-              </div>
-              <div class="slider__preview-wrap">
-                <img src="./sections/slider/content/slider-preview-2.png" alt="" class="slider__preview-img">
-              </div>
-              <div class="slider__arrows_mobile">
-                <svg class="slider__arrow">
-                  <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="slider__about">
-              <div class="slider__options">
-                <div class="slider__options-gear">
-                  <svg class="gear-icon">
-                    <use xlink:href="./sections/slider/content/slider-sprite.svg#gear"></use>
-                  </svg>
-                </div>
-                <div class="slider__options-hover">
-                  <ul class="slider__options-list">
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#bluetooth"></use>
-                        </svg>
-                        <span>Bluetooth</span>
-                      </div>
-                      <div class="option-value">4.0</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#range"></use>
-                        </svg>
-                        <span>Дальность</span>
-                      </div>
-                      <div class="option-value">10 м</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#charge"></use>
-                        </svg>
-                        <span>Зарядка</span>
-                      </div>
-                      <div class="option-value">2 ч</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#weight"></use>
-                        </svg>
-                        <span>Вес</span>
-                      </div>
-                      <div class="option-value">215 гр</div>
-                    </li>
-                    <li class="slider__options-item">
-                      <div class="option-desc">
-                        <svg class="option-icon">
-                          <use xlink:href="./sections/slider/content/slider-sprite.svg#warranty"></use>
-                        </svg>
-                        <span>Гарантия</span>
-                      </div>
-                      <div class="option-value">1 год</div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <h3 class="title slider__title">beats solo pro. цвет «красный цитрус»</h3>
-              <div class="slider__desc">
-                <div class="slider__desc-text">
-                  <p>Беспроводные наушники Solo Pro помогают настроиться на творчество. Для этого предусмотрено два
-                    режима прослушивания: режим с активным шумоподавлением и Прозрачный режим.</p>
-                </div>
-                <ul class="slider__desc-list">
-                  <li class="slider__desc-item">
-                    <span class="slider__desc-span">Зарядка</span>
-                    <span class="slider__desc-span_bold">2 часа</span>
-                  </li>
-                  <li class="slider__desc-item">
-                    <span class="slider__desc-span">Вес</span>
-                    <span class="slider__desc-span_bold">215 грамм</span>
-                  </li>
-                </ul>
-                <div class="desc__order">
-                  <div class="desc__order-price">24 990 ₽</div>
-                  <a href="#" class="button slider__button">Заказать</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <div class="slider__arrows_pc">
-          <svg class="slider__arrow slider__arrow-next">
-            <use xlink:href="./sections/slider/content/slider-sprite.svg#right"></use>
-          </svg>
-        </div>
-      </div>
-    </section>
-    <section class="section team">
-      <div class="container team__container">
-        <h2 class="title team__title">Команда</h2>
-        <ul class="team__list">
-          <li class="team__item">
-            <div class="team__avatar">
-              <img src="./sections/team/content/team-1.png" alt="avatar" class="team__avatar-img">
-            </div>
-            <h5 class="team__name">Борис Федорович</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__content-title">Главный технолог</div>
-                <div class="team__content-text">
-                  <p>Отвечает за вкусовые качества и калорийность.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <div class="team__avatar">
-              <img src="./sections/team/content/team-2.png" alt="avatar" class="team__avatar-img">
-            </div>
-            <h5 class="team__name">Алла Иванова</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__content-title">Специалист по упаковке</div>
-                <div class="team__content-text">
-                  <p>Автор запоминающегося стиля наших наушников.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <div class="team__avatar">
-              <img src="./sections/team/content/team-3.png" alt="avatar" class="team__avatar-img">
-            </div>
-            <h5 class="team__name">Кирилл Матросов</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__content-title">Оператор</div>
-                <div class="team__content-text">
-                  <p>Разработал дизайн наушников beats solo 3.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <div class="team__avatar">
-              <img src="./sections/team/content/team-4.png" alt="avatar" class="team__avatar-img">
-            </div>
-            <h5 class="team__name">Мила Рыжкова</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__content-title">PR, маркетинг</div>
-                <div class="team__content-text">
-                  <p>По всем вопросам сотрудничества и рекламы писать только Миле.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <ul class="team__list-mobile">
-          <li class="team__item">
-            <h5 class="team__name">Борис Федорович</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__avatar">
-                  <img src="./sections/team/content/team-1.png" alt="avatar" class="team__avatar-img">
-                </div>
-                <div class="team__content-title">Главный технолог</div>
-                <div class="team__content-text">
-                  <p>Отвечает за вкусовые качества и калорийность.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <h5 class="team__name">Алла Иванова</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__avatar">
-                  <img src="./sections/team/content/team-2.png" alt="avatar" class="team__avatar-img">
-                </div>
-                <div class="team__content-title">Специалист по упаковке</div>
-                <div class="team__content-text">
-                  <p>Автор запоминающегося стиля наших наушников.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <h5 class="team__name">Кирилл Матросов</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__avatar">
-                  <img src="./sections/team/content/team-3.png" alt="avatar" class="team__avatar-img">
-                </div>
-                <div class="team__content-title">Оператор</div>
-                <div class="team__content-text">
-                  <p>Разработал дизайн наушников beats solo 3.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="team__item">
-            <h5 class="team__name">Мила Рыжкова</h5>
-            <div class="team__content">
-              <div class="team__content-wrap">
-                <div class="team__avatar">
-                  <img src="./sections/team/content/team-4.png" alt="avatar" class="team__avatar-img">
-                </div>
-                <div class="team__content-title">PR, маркетинг</div>
-                <div class="team__content-text">
-                  <p>По всем вопросам сотрудничества и рекламы писать только Миле.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="section feedbacks">
-      <div class="container feedbacks__container">
-        <h2 class="title feedback__title">Отзывы</h2>
-        <ul class="feedbacks__reviews">
-          <li class="review feedbacks__review feedbacks__review_active" data-linked-with="one">
-            <div class="review__avatar">
-              <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar">
-            </div>
-            <div class="review__content">
-              <h3 class="review__content-title">Отличный звук</h3>
-              <div class="review__content-desc">
-                <p>
-                  Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
-                  компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
-                  всегда
-                  под рукой. Это приятно и удобно.
-                </p>
-              </div>
-              <div class="review__content-username">Билли Айлиш</div>
-            </div>
-          </li>
-          <li class="review feedbacks__review" data-linked-with="two">
-            <div class="review__avatar">
-              <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar">
-            </div>
-            <div class="review__content">
-              <h3 class="review__content-title">Крутой дизайн</h3>
-              <div class="review__content-desc">
-                <p>
-                  После тренировок всегда хочется быстро закинуться чем-то белковым, потому что до дома ещё нужно
-                  доехать. А кушать хочется. Протеиновые батончики всегда выручают в этом плане. Спасибо производителю
-                  за этот качественный и экологичный продукт.
-                </p>
-              </div>
-              <div class="review__content-username">Вадим Грачев</div>
-            </div>
-          </li>
-          <li class="review feedbacks__review" data-linked-with="three">
-            <div class="review__avatar">
-              <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar">
-            </div>
-            <div class="review__content">
-              <h3 class="review__content-title">На долго хватает заряда</h3>
-              <div class="review__content-desc">
-                <p>
-                  Батончики понравились. На мой взгляд слегка завышена цена по сравнению с конкурентами, однако, как
-                  говорится – оно того стоит. Нравится носить с собой, нравится держать в руке. Ну и конечно же, кушать.
-                </p>
-              </div>
-              <div class="review__content-username">Мария Орлова</div>
-            </div>
-          </li>
-        </ul>
-        <ul class="feedbacks__avatars-list">
-          <li class="feedbacks__avatars-item feedbacks__avatars-item_active">
-            <a href="#" class="feedbacks__avatars-link" data-open="one">
-              <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar-small" class="feedbacks__avatars-img">
-              <div class="feedbacks__avatars-border"></div>
+          <li class="color-menu__item">
+            <a href="#" class="color-menu__title color-menu__title_black">
+              <div class="color-menu__text">«Чёрный матовый»</div>
             </a>
+            <div class="color-menu__content">
+              <div class="color-menu__container">
+                <div class="color-menu__content-text">
+                  Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый
+                  день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в
+                  наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились.
+                  Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.
+                </div>
+              </div>
+            </div>
           </li>
-          <li class="feedbacks__avatars-item">
-            <a href="#" class="feedbacks__avatars-link" data-open="two">
-              <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar-small" class="feedbacks__avatars-img">
-              <div class="feedbacks__avatars-border"></div>
+          <li class="color-menu__item">
+            <a href="#" class="color-menu__title color-menu__title_red">
+              <div class="color-menu__text">«Красный цитрус»</div>
             </a>
-          </li>
-          <li class="feedbacks__avatars-item">
-            <a href="#" class="feedbacks__avatars-link" data-open="three">
-              <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar-small" class="feedbacks__avatars-img">
-              <div class="feedbacks__avatars-border"></div>
-            </a>
+            <div class="color-menu__content">
+              <div class="color-menu__container">
+                <div class="color-menu__content-text">
+                  Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый
+                  день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в
+                  наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились.
+                  Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
-      </div>
-    </section>
-    <section class="section order">
-      <div class="container order__container">
-        <h2 class="title order__title">Закажите доставку</h2>
-        <form class="form order__form">
-          <input type="hidden" name="to" value="123@ya.ru">
-          <div class="form__col">
-            <div class="form__row">
-              <label class="form__block">
-                <div class="form__title">Имя</div>
-                <input type="text" name="name" class="form__input"></input>
-              </label>
-              <label class="form__block">
-                <div class="form__title">Телефон</div>
-                <input type="text" name="phone" class="form__input"></input>
-              </label>
-            </div>
-            <div class="form__row">
-              <label class="form__block">
-                <div class="form__title">Улица</div>
-                <input type="text" name="street" class="form__input"></input>
-              </label>
-            </div>
-            <div class="form__row">
-              <label class="form__block">
-                <div class="form__title">Дом</div>
-                <input type="text" name="home" class="form__input"></input>
-              </label>
-              <label class="form__block">
-                <div class="form__title">Корпус</div>
-                <input type="text" name="part" class="form__input"></input>
-              </label>
-              <label class="form__block">
-                <div class="form__title">Квартира</div>
-                <input type="text" name="room" class="form__input"></input>
-              </label>
-              <label class="form__block">
-                <div class="form__title">Этаж</div>
-                <input type="text" name="floor" class="form__input"></input>
-              </label>
-            </div>
-          </div>
-          <div class="form__col">
-            <div class="form__row">
-              <label class="form__block">
-                <div class="form__title">Комментарий</div>
-                <textarea type="text" name="comment" class="form__input form__input_textarea"></textarea>
-              </label>
-            </div>
-            <div class="form__controls">
-              <label class="radio">
-                <input type="radio" name="option" class="radio__elem hidden">
-                <div class="radio__visible"></div>
-                <div class="radio__title">Потребуется сдача</div>
-              </label>
-              <label class="radio">
-                <input type="radio" name="option" class="radio__elem hidden">
-                <div class="radio__visible"></div>
-                <div class="radio__title">Оплата картой</div>
-              </label>
-            </div>
-            <div class="form__controls">
-              <label class="radio radio_checkbox">
-                <input type="checkbox" class="radio__elem hidden">
-                <div class="radio__visible"></div>
-                <div class="radio__title">Не перезванивать</div>
-              </label>
-            </div>
-            <div class="form__buttons">
-              <input type="submit" value="Заказать" class="button">
-              <input type="reset" value="Очистить" class="button button_transparent">
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="section map">
-      <img src="./sections/map/content/map.png" alt="map" class="map__png">
-      <footer class="footer">
-        <div class="container footer__container">
-          <div class="footer__col">
-            <address class="contacts footer__contacts">
-              <span class="footer__contacts-position">Москва, ул. Новый Арбат, д. 31/12</span>
-              <div class="footer__contacts-tel">
-                <svg class="phone-icon">
-                  <use xlink:href="./sections/main/content/main-sprite.svg#phone"></use>
-                </svg>
-                <a href="tel: +78009039090" class="contacts__phone">8 800 903 90 90</a>
+      </section>
+      <section class="section feedbacks" data-sidemenu-theme="origin" data-section-id="feedbacks">
+        <div class="container feedbacks__container">
+          <h2 class="title feedback__title">Отзывы</h2>
+          <ul class="feedbacks__reviews">
+            <li class="review feedbacks__review feedbacks__review_active" data-linked-with="one">
+              <div class="review__avatar">
+                <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar">
               </div>
-            </address>
-          </div>
-          <div class="footer__col">
-            <ul class="social">
-              <li class="social__list">
-                <a href="" class="social__link">
-                  <svg class="social__icon">
-                    <use xlink:href="./sections/footer/content/footer-sprite.svg#vkontakte"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__list">
-                <a href="" class="social__link">
-                  <svg class="social__icon">
-                    <use xlink:href="./sections/footer/content/footer-sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__list">
-                <a href="" class="social__link">
-                  <svg class="social__icon">
-                    <use xlink:href="./sections/footer/content/footer-sprite.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__list">
-                <a href="" class="social__link">
-                  <svg class="social__icon">
-                    <use xlink:href="./sections/footer/content/footer-sprite.svg#telegramm"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+              <div class="review__content">
+                <h3 class="review__content-title">Отличный звук</h3>
+                <div class="review__content-desc">
+                  <p>
+                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
+                    компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
+                    всегда
+                    под рукой. Это приятно и удобно.
+                  </p>
+                </div>
+                <div class="review__content-username">Билли Айлиш</div>
+              </div>
+            </li>
+            <li class="review feedbacks__review" data-linked-with="two">
+              <div class="review__avatar">
+                <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar">
+              </div>
+              <div class="review__content">
+                <h3 class="review__content-title">Крутой дизайн</h3>
+                <div class="review__content-desc">
+                  <p>
+                    После тренировок всегда хочется быстро закинуться чем-то белковым, потому что до дома ещё нужно
+                    доехать. А кушать хочется. Протеиновые батончики всегда выручают в этом плане. Спасибо производителю
+                    за этот качественный и экологичный продукт.
+                  </p>
+                </div>
+                <div class="review__content-username">Вадим Грачев</div>
+              </div>
+            </li>
+            <li class="review feedbacks__review" data-linked-with="three">
+              <div class="review__avatar">
+                <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar">
+              </div>
+              <div class="review__content">
+                <h3 class="review__content-title">На долго хватает заряда</h3>
+                <div class="review__content-desc">
+                  <p>
+                    Батончики понравились. На мой взгляд слегка завышена цена по сравнению с конкурентами, однако, как
+                    говорится – оно того стоит. Нравится носить с собой, нравится держать в руке. Ну и конечно же, кушать.
+                  </p>
+                </div>
+                <div class="review__content-username">Мария Орлова</div>
+              </div>
+            </li>
+          </ul>
+          <ul class="feedbacks__avatars-list">
+            <li class="feedbacks__avatars-item feedbacks__avatars-item_active">
+              <a href="#" class="feedbacks__avatars-link" data-open="one">
+                <img src="./sections/feedbacks/content/avatar_1.jpg" alt="avatar-small" class="feedbacks__avatars-img">
+                <div class="feedbacks__avatars-border"></div>
+              </a>
+            </li>
+            <li class="feedbacks__avatars-item">
+              <a href="#" class="feedbacks__avatars-link" data-open="two">
+                <img src="./sections/feedbacks/content/avatar_2.jpg" alt="avatar-small" class="feedbacks__avatars-img">
+                <div class="feedbacks__avatars-border"></div>
+              </a>
+            </li>
+            <li class="feedbacks__avatars-item">
+              <a href="#" class="feedbacks__avatars-link" data-open="three">
+                <img src="./sections/feedbacks/content/avatar_3.jpg" alt="avatar-small" class="feedbacks__avatars-img">
+                <div class="feedbacks__avatars-border"></div>
+              </a>
+            </li>
+          </ul>
         </div>
-      </footer>
-    </section>
+      </section>
+      <section class="section order" data-sidemenu-theme="origin" data-section-id="order">
+        <div class="container order__container">
+          <h2 class="title order__title">Закажите доставку</h2>
+          <form class="form order__form">
+            <input type="hidden" name="to" value="123@ya.ru">
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Имя</div>
+                  <input type="text" name="name" class="form__input"></input>
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Телефон</div>
+                  <input type="text" name="phone" class="form__input"></input>
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Улица</div>
+                  <input type="text" name="street" class="form__input"></input>
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Дом</div>
+                  <input type="text" name="home" class="form__input"></input>
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Корпус</div>
+                  <input type="text" name="part" class="form__input"></input>
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Квартира</div>
+                  <input type="text" name="room" class="form__input"></input>
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Этаж</div>
+                  <input type="text" name="floor" class="form__input"></input>
+                </label>
+              </div>
+            </div>
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Комментарий</div>
+                  <textarea type="text" name="comment" class="form__input form__input_textarea"></textarea>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem hidden">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Потребуется сдача</div>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem hidden">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Оплата картой</div>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio radio_checkbox">
+                  <input type="checkbox" class="radio__elem hidden">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Не перезванивать</div>
+                </label>
+              </div>
+              <div class="form__buttons">
+                <input type="submit" value="Заказать" class="button">
+                <input type="reset" value="Очистить" class="button button_transparent">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section map" data-sidemenu-theme="origin" data-section-id="map">
+        <div id="map"></div>
+        <footer class="footer">
+          <div class="container footer__container">
+            <div class="footer__col">
+              <address class="contacts footer__contacts">
+                <span class="footer__contacts-position">Москва, ул. Новый Арбат, д. 31/12</span>
+                <div class="footer__contacts-tel">
+                  <svg class="phone-icon">
+                    <use xlink:href="./sections/main/content/main-sprite.svg#phone"></use>
+                  </svg>
+                  <a href="tel: +78009039090" class="contacts__phone">8 800 903 90 90</a>
+                </div>
+              </address>
+            </div>
+            <div class="footer__col">
+              <ul class="social">
+                <li class="social__list">
+                  <a href="" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="./sections/footer/content/footer-sprite.svg#vkontakte"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__list">
+                  <a href="" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="./sections/footer/content/footer-sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__list">
+                  <a href="" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="./sections/footer/content/footer-sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__list">
+                  <a href="" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="./sections/footer/content/footer-sprite.svg#telegramm"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
   </div>
   <nav class="fixed-menu">
     <ul class="fixed-menu__list">
       <li class="fixed-menu__item fixed-menu__item_active">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="main" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="about" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="slider" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="team" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="color" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="feedbacks" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="order" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="map" class="fixed-menu__link"></a>
       </li>
       <li class="fixed-menu__item">
-        <a href="" class="fixed-menu__link"></a>
+        <a href="" data-scroll-to="" class="fixed-menu__link"></a>
       </li>
     </ul>
   </nav>
-  <div id="nav" class="overlay">
+  <div class="overlay" id="nav">
     <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">
       <svg class="close-icon">
         <use xlink:href="./sections/universal-blocks/content/close.svg#close"></use>
@@ -733,25 +785,25 @@
     <nav class="menu overlay__menu">
       <ul class="menu__list">
         <li class="menu__item">
-          <a href="#" class="menu__link">О нас</a>
+          <a href="#" data-scroll-to="" class="menu__link">О нас</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Наушники</a>
+          <a href="#" data-scroll-to="slider" class="menu__link">Наушники</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Команда</a>
+          <a href="#" data-scroll-to="team" class="menu__link">Команда</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Цвета</a>
+          <a href="#" data-scroll-to="color" class="menu__link">Цвета</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Отзывы</a>
+          <a href="#" data-scroll-to="feedbacks" class="menu__link">Отзывы</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Как мы работаем</a>
+          <a href="#" data-scroll-to="" class="menu__link">Как мы работаем</a>
         </li>
         <li class="menu__item">
-          <a href="#" class="menu__link">Контакты</a>
+          <a href="#" data-scroll-to="map" class="menu__link">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -765,11 +817,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
   <script src="./js/overlay.js"></script>
   <script src="./js/feedbacks.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/team.js"></script>
+  <script src="./js/color.js"></script>
   <script src="./js/modal.js"></script>
+  <script src="./js/ops.js"></script>
+  <script src="./js/map.js"></script>
 </body>
 
 </html>

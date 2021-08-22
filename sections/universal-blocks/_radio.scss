@@ -47,6 +47,7 @@
   border-radius: 0;
 
   &:before {
-    background: url("../Content/order/checkmark.svg") center center no-repeat;
+    background: url("/sections/order/content/checkmark.svg") center center no-repeat;
+    background-size: contain;
   }
 }

@@ -42,7 +42,6 @@
 }
 
 .fixed-menu__link:hover {
-  // border-color: $red;
 
   &:before {
     background-color: $red;
@@ -55,5 +54,20 @@
 
   &:before {
     background-color: $red;
+  }
+}
+
+.fixed-menu_black>.fixed-menu__list>.fixed-menu__item_active>.fixed-menu__link {
+  border-color: $black;
+
+  &:before {
+    background-color: $black;
+  }
+}
+
+.fixed-menu_black>.fixed-menu__list>.fixed-menu__item>.fixed-menu__link:hover {
+
+  &:before {
+    background-color: $black;
   }
 }

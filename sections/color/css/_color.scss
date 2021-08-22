@@ -1,0 +1,68 @@
+.color {
+  align-items: flex-start;
+  position: relative;
+  background: no-repeat url("/sections/color/content/color.jpg");
+  background-position: 80% center;
+  background-size: cover;
+  color: #fff;
+
+}
+
+.color__title {
+  margin-top: 15%;
+  margin-left: 7%;
+}
+
+.color-menu {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.color-menu__item {
+  display: flex;
+}
+
+.color-menu__title {
+  position: relative;
+  width: 102px;
+}
+
+.color-menu__title_gray {
+  background-color: #999;
+}
+
+.color-menu__title_black {
+  background-color: #151515;
+}
+
+.color-menu__title_red {
+  background-color: #E01F3C;
+}
+
+.color-menu__text {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  transform-origin: center center;
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+  right: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.color-menu__content {
+  width: 0;
+  background: #333537;
+  opacity: 0.9;
+  overflow: hidden;
+  transition: width 1s;
+}
+
+.color-menu__container {
+  padding: 40px 53px 31px 38px;
+}
