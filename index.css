@@ -1276,7 +1276,7 @@ footer {
 .color {
   align-items: flex-start;
   position: relative;
-  background: no-repeat url("./sections/color/content/color.jpg");
+  background: no-repeat url("/sections/color/content/color.jpg");
   background-position: 80% center;
   background-size: cover;
   color: #fff;
