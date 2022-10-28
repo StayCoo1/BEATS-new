@@ -727,7 +727,7 @@ footer {
   border-radius: 0;
 }
 .radio_checkbox > .radio__visible:before {
-  background: url("/sections/order/content/checkmark.svg") center center no-repeat;
+  background: url("./sections/order/content/checkmark.svg") center center no-repeat;
   background-size: contain;
 }
 
